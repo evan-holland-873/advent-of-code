@@ -39,5 +39,4 @@ for line in text_lines:
     if (determine_safety(num_list_ints)):
         total_safe += 1
 
-print(f"Part 1: {total_safe}")
-
+print(total_safe)
